@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园跑腿个人信息主页</title>
+    <link rel="stylesheet" href="my3.css">
+    <script>
+        function tj(){
+            alert("提交成功"); 
+        }
+        function bc(){
+            alert("保存成功"); 
+        }
+        function myFunction1(){
+             window.open("校园跑腿主页.html");
+        }
+        </script>
+       
+  
+</head>
+<body>
+    <div class="box">
+        <div class="daohang">
+            <!-- 左 -->
+            <div class="zbox">
+               <p>个人信息<p>
+               <button class="fanhui" onclick="myFunction1()">返回主页</button>
+               
+           </div>
+           <!-- 右 -->
+           <div class="ybox">
+               
+              
+           </div>
+       </div>
+        <div class="zuoce">
+            <button>个人信息</button><br>
+            <hr>
+            <button>反馈举报</button>
+            
+        </div>
+
+        <div class="youce">
+            <div class="xinxi">
+                <form action="" class="x1">
+                    <p>昵称：</p><input type="text" placeholder="请输入昵称"><br><br>
+                    <p>性别：</p><input type="radio" name="1">男<input type="radio" name="1">女 <br><br> 
+                    <p>邮箱：</p><input type="text" placeholder="请输入邮箱"><br><br>    
+                    <p>个人介绍：</p>
+                    <textarea name="2" cols="50" rows="8" placeholder="简介"></textarea>  <br> 
+                    <button onclick="bc()">保存</button>
+                </form>
+               
+            </div>
+            
+            <div class="fankui">
+                <form action="" class="x1">
+                      
+                    <p>反馈意见/举报：</p>
+                    <textarea name="2" cols="50" rows="8" placeholder=""></textarea>  <br> 
+                    <button onclick="tj()">提交</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+        
+</body>
+</html>
