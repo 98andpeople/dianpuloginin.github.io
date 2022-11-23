@@ -96,7 +96,7 @@ body {
     font-size: 20px;
     font-family: "楷体";
     font-weight: bold;
-    height: calc(50vh - 4px);
+    height: 50vh;
     width: 100px;
     border-width: 0px 0px 0px 0px;
     color: rgb(0, 0, 0);
@@ -112,7 +112,7 @@ body {
     font-size: 20px;
     font-family: "楷体";
     font-weight: bold;
-    height: calc(50vh - 4px);
+    height: 50vh;
     width: 100px;
     border-width: 0px 0px 0px 0px;
     color: rgb(255, 255, 255);
@@ -126,7 +126,7 @@ body {
 
 
 .box .youce .fabu{
-    padding-top: 20px;
+    
    display: flex;
     height: 50vh;
     font-size: 20px;
@@ -141,7 +141,7 @@ body {
 
 
 .box .youce .fankui{
-    padding-top: 20px;
+    
     display: flex;
     height: 50vh;
     font-size: 20px;
@@ -151,5 +151,6 @@ body {
     border-width: 0px 0px 0px 0px;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 228, 196, 0.281);
+    overflow: auto;
 }
 
